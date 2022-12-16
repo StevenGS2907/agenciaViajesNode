@@ -7,7 +7,7 @@ const db = new Sequelize(
   process.env.DB_PASS || 'root',
   {
     host: process.env.DB_HOST || 'localhost',
-    port: process.env.DB_PORT || 3306,
+    port: 3306,
     dialect: 'mysql',
     define: {
       timestamps: false,
